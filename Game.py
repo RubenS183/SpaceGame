@@ -379,9 +379,9 @@ def key_update(keys, ship):
     if keys[pygame.K_SPACE]:
         ship.shoot()
     if not ship.aimBot:
-        if keys[pygame.K_a]:
+        if keys[pygame.K_a] or keys[pygame.K_LEFT]:
             ship.move_left()
-        if keys[pygame.K_d]:
+        if keys[pygame.K_d] or keys[pygame.K_RIGHT]:
             ship.move_right()
 
 
