@@ -25,8 +25,7 @@ SPACESHIP_IMG = pygame.image.load(os.path.join('Assets', 'spaceship.png'))
 SPACESHIP_IMG = pygame.transform.scale(SPACESHIP_IMG, (SPACESHIP_WIDTH, SPACESHIP_HEIGHT))
 SPACESHIP_IMG = pygame.transform.rotate(SPACESHIP_IMG, 180)
 
-EXPLOSION_IMG = pygame.transform.scale(pygame.image.load(os.path.join('Assets', 'explosion.png')),
-                                       (SPACESHIP_WIDTH, SPACESHIP_HEIGHT))
+ASTEROID_IMG = pygame.image.load(os.path.join('Assets', 'asteroid.png'))
 BACKGROUND_IMG = pygame.image.load(os.path.join('Assets', 'space.png'))
 
 
